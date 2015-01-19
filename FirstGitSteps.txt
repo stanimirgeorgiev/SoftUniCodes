@@ -1,1 +1,2 @@
 1.This is my first git file.
+3. This is a third line which should be merged with the original repository. 
