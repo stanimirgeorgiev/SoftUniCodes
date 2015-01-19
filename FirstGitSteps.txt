@@ -1,3 +1,4 @@
 1.This is my first git file.
 2. This is a line of text createdin the first local reposistory.
 3. This is a third line which should be merged with the original repository. 
+4. New linefrom repository.
