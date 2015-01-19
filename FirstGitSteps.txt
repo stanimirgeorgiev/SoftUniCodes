@@ -3,3 +3,4 @@
 3. This is a third line which should be merged with the original repository. 
 4. New linefrom repository.
 5. Conflict line.
+6. A line for auto merge.
