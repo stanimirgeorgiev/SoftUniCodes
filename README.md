@@ -1,1 +1,1 @@
-# SoftUniCodes formy SoftUni learning events.
+# SoftUniCodes for my SoftUni learning events.
