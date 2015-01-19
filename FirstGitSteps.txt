@@ -4,3 +4,4 @@
 4. New linefrom repository.
 5. Conflict line.
 6. A line for auto merge.
+7. A conflict line A.
