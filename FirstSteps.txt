@@ -1,0 +1,1 @@
+1.This is my first line written in SVN from linux terminal.
