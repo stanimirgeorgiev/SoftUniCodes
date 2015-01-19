@@ -1,1 +1,2 @@
 1.This is my first line written in SVN from linux terminal.
+2. Second I will try to merge this new line into GitHub repository.
