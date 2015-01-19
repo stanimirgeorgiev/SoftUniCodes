@@ -1,1 +1,1 @@
-# SoftUniCodes
+# SoftUniCodes formy SoftUni lerning events.
