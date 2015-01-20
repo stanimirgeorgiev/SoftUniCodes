@@ -1,0 +1,2 @@
+1. First navigate to the directory with the java source files (.java)
+2. Run in the terminal the code: javac SumTwoNumbers.java

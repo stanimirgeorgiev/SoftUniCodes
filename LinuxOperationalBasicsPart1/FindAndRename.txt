@@ -1,0 +1,7 @@
+﻿If your goal is to rename all the files in the current directory that have extension ".c" and change it to extension ".cpp" here is the command line for the terminal:
+
+find ./ *.c -prune -type f -print0 | xargs -0 /usr/bin/prename 's/\.c/\.cpp/'
+
+If you want to change the above in different directory you should change the "./" part to where the files are. If your files are in /usr/bin/ your line should look like:
+
+find /usr/bin/ *.c -prune -type f -print0 | xargs -0 /usr/bin/prename 's/\.c/\.cpp/' 
