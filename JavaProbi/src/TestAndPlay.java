@@ -15,6 +15,9 @@ class TestAndPlay {
 	System.out.printf("%c is equals to %x.\n", charTest, num);
 	System.out.printf("%S is equals to %.4f .\n", firstString, floatTest);
 	System.out.printf("%n is equals to %d.\n", num);
+	System.out.printf(secondString);
+	System.out.println("Probata prodyljava");
+	
 	
 }
 }
