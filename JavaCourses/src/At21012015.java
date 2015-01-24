@@ -8,7 +8,7 @@ public class At21012015 {
 	public static void main(String[] args) {
 		Locale.setDefault(Locale.ROOT); // Всичките данни са в американски английски
 		byte b =1;
-		int i = 5_434_434;
+		int i = 5434434;
 		long l = 3L;
 		long sum = b + i + l;
 		System.out.println(b);
@@ -31,11 +31,11 @@ public class At21012015 {
 		
 		System.out.println(myText);
 		System.out.println(name + surname);
-		Object misterX = 5;
+		int misterX = 50;
 		System.out.println(misterX);
-		misterX = "Five";
+		misterX = 12;
 		System.out.println(misterX);
-		long numbeAsBits = 0b01010101;
+		long numbeAsBits = 123;
 		System.out.println(numbeAsBits);
 		Integer nullSymbol = null, anotherNumber = null;
 		System.out.println(nullSymbol + "'" + anotherNumber);
@@ -46,8 +46,8 @@ public class At21012015 {
 		System.out.println(div);
 		int testPostAndPrefix = div++;
 		System.out.println(++testPostAndPrefix == div);
-		System.out.printf("++div = %1$d and testPostAndPrefix = %2$d and div++ != testPostAndPrefix is %b \n", ++div, testPostAndPrefix, ++div != testPostAndPrefix);
-		
+/*		System.out.printf("++div = %1$d and testPostAndPrefix = %2$d and div++ != testPostAndPrefix is %b \n", ++div, testPostAndPrefix, ++div != testPostAndPrefix);
+		*/
 		
 		Scanner scan = new Scanner(System.in);
 	
