@@ -1,12 +1,11 @@
+package MyHometown;
 
 public class PrintHometownWithPackage {
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
-		com.MyHometown.PrintYourHometown;
-
+		System.out.println("My home town is Sofia");
+		
+		
 	}
 
 }

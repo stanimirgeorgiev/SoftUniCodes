@@ -9,9 +9,15 @@ public class P06FormattingNumbers {
 		float b = scan.nextFloat();
 		float c = scan.nextFloat();
 		String binaryA = Integer.toBinaryString(a);
-		System.out.println(binaryA);
+		int binLenght = binaryA.length();
+		for (int i = 0; i < (10 - binLenght); i++) {
+			binaryA = "0".concat(binaryA);
+		}
 		System.out.printf("|%1$-10X|", a);
-		String.format("|%010s|", binaryA);
+		System.out.printf("%10s|", binaryA);
+		System.out.printf("%1$10.2f|", b);
+		System.out.printf("%1$-10.3f|", c);
+		scan.close();
 	}
 
 }

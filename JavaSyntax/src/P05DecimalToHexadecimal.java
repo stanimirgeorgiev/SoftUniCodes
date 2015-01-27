@@ -4,6 +4,7 @@ import java.util.Scanner;
 import javax.xml.bind.annotation.adapters.HexBinaryAdapter;
 
 
+@SuppressWarnings("unused")
 public class P05DecimalToHexadecimal {
 
 	public static void main(String[] args) {
